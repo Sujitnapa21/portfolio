@@ -13,13 +13,17 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NzLayoutModule } from 'ng-zorro-antd/layout';
+import { AboutComponent } from './modules/about-me/about.component';
+import { NavBarComponent } from './modules/nav-bar/nav-bar.component';
 
 registerLocaleData(en);
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    AboutComponent,
+    NavBarComponent
   ],
   imports: [
     BrowserModule,

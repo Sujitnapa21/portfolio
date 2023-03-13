@@ -1,0 +1,44 @@
+// h1 {
+//   color: rgb(0, 0, 0);
+//   text-align: center;
+//   font-family: Monospace ;
+// }
+
+// p {
+//   font-family: Monospace;
+//   font-size: 20px;
+// }
+
+.nav {
+    display: block;
+    max-width: auto;
+    height: 50px;
+    color: #fff !important;
+    background-color: #ca2d2a !important;
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  .nav-left {
+    padding-top: 10px;
+  }
+  
+  .nav-right {
+    padding-top: 15px;
+    text-align: end;
+  }
+  a {
+    text-decoration: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 25px;
+    color: #fff !important;
+  }
+  
+  .title {
+    font-size: 16px;
+    margin-left: 40px;
+  }
+  
